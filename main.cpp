@@ -17,7 +17,7 @@
 
 
 /*
- * Define a set of states that can be used in the state machine using an enum.
+ * Define a set of states that can be used in the state machine using an enum. **Forgive me for naming the states ridiculously, this is not my current practice =]
  */
 typedef enum purdy {frog, hold_up, bicycle, wait_a_sec} stateType;
 volatile stateType state = frog;
